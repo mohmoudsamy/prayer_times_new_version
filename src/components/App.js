@@ -21,7 +21,10 @@ const App = () => {
   }, [year, month]);
 
   return (
-    <div className="text-secondary bg-bg w-96 m-auto min-h-[600px] relative text-2xl">
+    <div
+      className="text-secondary bg-bg w-96 m-auto min-h-[600px] relative"
+      style={{ fontSize: "14px" }}
+    >
       {data.length > 0 ? (
         <div className="py-4 px-0">
           <div className="text-center text-3xl font-bold border-b-[1px] border-primary pb-4">

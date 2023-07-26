@@ -56,7 +56,7 @@ const ParyerTimes = ({ data }) => {
         return (
           <p
             className={`flex_between mb-6 px-4 py-2 rounded-md text-slate-400 ${
-              i === 4 && "mb-0"
+              i === 4 && "!mb-0"
             } ${
               timestamp >= timestamps[i - 1] && timestamp <= timestamps[i]
                 ? "bg-slate-800 !text-secondary"
